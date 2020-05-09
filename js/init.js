@@ -197,12 +197,12 @@ function ready() {
       var src = URL.createObjectURL(item);
     }
     copyPasteImage(src, setImage);
-  }); */
+  }); 
 
   window.addEventListener('resize', function () {
     c1.width = c2.width = w = src.naturalWidth || src.width;
     c1.height = c2.height = h = src.naturalHeight || src.height;
-  });
+  });*/
 
   window.addEventListener('deviceorientation', function (e) {
     kx = opts.segmentSize * Math.sin(e.beta * Math.PI / 180);
