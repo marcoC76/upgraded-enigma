@@ -161,7 +161,7 @@ function ready() {
 
   loadImage(opts.imgURL, setImage);
 
-  window.addEventListener('mousemove', function (e) {
+ /*  window.addEventListener('mousemove', function (e) {
     kx = (e.clientX / window.innerWidth - 0.5) * opts.segmentSize;
     ky = (e.clientY / window.innerHeight - 0.5) * opts.segmentSize;
   });
@@ -197,7 +197,7 @@ function ready() {
       var src = URL.createObjectURL(item);
     }
     copyPasteImage(src, setImage);
-  });
+  }); */
 
   window.addEventListener('resize', function () {
     c1.width = c2.width = w = src.naturalWidth || src.width;
